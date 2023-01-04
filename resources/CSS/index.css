@@ -1,0 +1,64 @@
+.navbar {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;    
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+a.gold {
+    color: darkgoldenrod;
+}
+
+.banner {
+    background-color: darkgoldenrod;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.banner img {
+    height: 100px;
+    width: 100px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.funky-section {
+    padding: 20px 50px;
+}
+
+.avatar {
+    background-image: url(../img/Music_Icon.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 6px;
+}
+
+#funk {  
+    color: darkolivegreen;
+    font-size: 100px;
+}
+
+#funky-list ul {
+    list-style-type: none;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+
